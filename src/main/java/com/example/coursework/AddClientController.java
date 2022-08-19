@@ -19,7 +19,7 @@ import java.util.Objects;
 import java.util.ResourceBundle;
 
 import static com.example.coursework.Database.clients;
-import static com.example.coursework.ParkDatabaseController.database;
+import static com.example.coursework.MainWindowController.database;
 
 
 public class AddClientController implements Initializable {
@@ -59,7 +59,7 @@ public class AddClientController implements Initializable {
 
     @FXML
     protected ComboBox<String> numberComboBox;
-    private ParkDatabaseController parent;
+    private MainWindowController parent;
     AccessController childrenDeleteClientController;
 
     @Override
@@ -104,7 +104,7 @@ public class AddClientController implements Initializable {
             int numberBoxValue = Integer.parseInt(numberComboBox.getValue());
             addClientButton.setDisable(true);
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("access.fxml"));
+            loader.setLocation(getClass().getResource("access-window.fxml"));
 
             Parent root = loader.load();
             Stage stage = new Stage();
@@ -145,7 +145,7 @@ public class AddClientController implements Initializable {
         parent.addClientButton.setDisable(false);
     }
 
-    public void setParent(ParkDatabaseController parent) {
+    public void setParent(MainWindowController parent) {
         this.parent = parent;
     }
 

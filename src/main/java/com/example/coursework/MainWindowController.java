@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 
 import static com.example.coursework.Database.clients;
 
-public class ParkDatabaseController implements Initializable {
+public class MainWindowController implements Initializable {
 
     public TextField searchTextField;
     @FXML
@@ -167,7 +167,7 @@ public class ParkDatabaseController implements Initializable {
     public void editingButton() throws IOException {
         editButton.setDisable(true);
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("parking-editing.fxml"));
+        loader.setLocation(getClass().getResource("editing-window.fxml"));
 
         Parent root = loader.load();
         Stage stage = new Stage();
@@ -187,7 +187,7 @@ public class ParkDatabaseController implements Initializable {
     public void addNewClient() throws IOException {
         addClientButton.setDisable(true);
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("parking-add-client-view.fxml"));
+        loader.setLocation(getClass().getResource("add-client-window.fxml"));
 
         Parent root = loader.load();
         Stage stage = new Stage();

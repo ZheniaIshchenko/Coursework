@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #dfe6e9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.ParkDatabaseController">
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #dfe6e9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.MainWindowController">
    <ScrollPane cache="true" fitToWidth="true" hbarPolicy="NEVER" layoutX="47.0" layoutY="38.0" prefHeight="345.0" prefViewportHeight="330.0" prefWidth="506.0" vbarPolicy="ALWAYS">
       <content>
           <GridPane fx:id="listDatabase" gridLinesVisible="true" prefHeight="930.0" prefWidth="500.0" style="-fx-background-color: #F3F5F5;">

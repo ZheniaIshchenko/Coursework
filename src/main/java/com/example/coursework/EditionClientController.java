@@ -68,7 +68,7 @@ public class EditionClientController implements Initializable {
     public Button deleteButton;
 
 
-    private ParkDatabaseController parent;
+    private MainWindowController parent;
 
     Database database = new Database();
 
@@ -77,7 +77,7 @@ public class EditionClientController implements Initializable {
 
     AccessController childrenDeleteClientController;
 
-    public void setParent(ParkDatabaseController parent){
+    public void setParent(MainWindowController parent){
         this.parent = parent;
     }
 
@@ -181,7 +181,7 @@ public class EditionClientController implements Initializable {
         deleteButton.setDisable(true);
         editingButton.setDisable(true);
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("access.fxml"));
+        loader.setLocation(getClass().getResource("access-window.fxml"));
 
         Parent root = loader.load();
         Stage stage = new Stage();

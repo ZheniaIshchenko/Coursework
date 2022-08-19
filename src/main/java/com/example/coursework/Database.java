@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import static com.example.coursework.ParkDatabaseController.database;
+import static com.example.coursework.MainWindowController.database;
 import static java.sql.DriverManager.getConnection;
 public class Database {
     private static Connection con;
