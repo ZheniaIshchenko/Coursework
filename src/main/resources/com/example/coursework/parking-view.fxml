@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #dfe6e9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.ParkDatabaseController">
+   <ScrollPane cache="true" fitToWidth="true" hbarPolicy="NEVER" layoutX="47.0" layoutY="38.0" prefHeight="345.0" prefViewportHeight="330.0" prefWidth="506.0" vbarPolicy="ALWAYS">
+      <content>
+          <GridPane fx:id="listDatabase" gridLinesVisible="true" prefHeight="930.0" prefWidth="500.0" style="-fx-background-color: #F3F5F5;">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="0.0" prefWidth="25.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="0.0" prefWidth="201.39998474121094" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="0.0" prefWidth="31.40001525878904" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="3.1999999999999886" prefWidth="93.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="10.0" prefWidth="80.60000000000002" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="10.0" prefWidth="32.80000000000001" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="36.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="40.4" minHeight="0.0" prefHeight="30.4" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="39.4" minHeight="0.0" prefHeight="28.4" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+              <Label alignment="CENTER" prefHeight="50.0" prefWidth="59.0" style="-fx-background-color: #ffeaa7;" text="№" GridPane.halignment="CENTER" />
+              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="200.0" style="-fx-background-color: #ffeaa7;" text="Прізвище ім'я побатькові" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+              <Label alignment="CENTER" prefHeight="46.0" prefWidth="58.0" style="-fx-background-color: #F3F5F5;" text="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+              <Label alignment="CENTER" prefHeight="149.0" prefWidth="306.0" style="-fx-background-color: #F3F5F5;" text="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+              <Label alignment="CENTER" prefHeight="108.0" prefWidth="210.0" style="-fx-background-color: #F3F5F5;" text="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+              <Label alignment="CENTER" prefHeight="158.0" prefWidth="303.0" style="-fx-background-color: #F3F5F5;" text="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+              <Label alignment="CENTER" prefHeight="113.0" prefWidth="211.0" style="-fx-background-color: #F3F5F5;" text="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+              <Label alignment="CENTER" prefHeight="116.0" prefWidth="205.0" style="-fx-background-color: #F3F5F5;" text="7" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+              <Label alignment="CENTER" prefHeight="124.0" prefWidth="330.0" style="-fx-background-color: #F3F5F5;" text="8" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+              <Label alignment="CENTER" prefHeight="155.0" prefWidth="351.0" style="-fx-background-color: #F3F5F5;" text="9" GridPane.halignment="CENTER" GridPane.rowIndex="9" />
+              <Label alignment="CENTER" prefHeight="77.0" prefWidth="203.0" style="-fx-background-color: #ffeaa7;" text="Марка авто" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+              <Label alignment="CENTER" prefHeight="111.0" prefWidth="248.0" style="-fx-background-color: #ffeaa7;" text="Номер авто" GridPane.columnIndex="4" GridPane.halignment="CENTER" />
+              <Label fx:id="isOnParking" alignment="CENTER" prefHeight="30.0" prefWidth="41.0" style="-fx-background-color: #ffeaa7;" text="Н/П" GridPane.columnIndex="5" GridPane.halignment="CENTER" />
+              <Label fx:id="isPayment" alignment="CENTER" prefHeight="91.0" prefWidth="137.0" style="-fx-background-color: #ffeaa7;" text="Оплачено" GridPane.columnIndex="6" GridPane.halignment="CENTER" />
+              <Label fx:id="isRegularClient" alignment="CENTER" prefHeight="68.0" prefWidth="119.0" style="-fx-background-color: #ffeaa7;" text="П/К" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+              <Label alignment="CENTER" prefHeight="96.0" prefWidth="262.0" text="10" GridPane.rowIndex="10" />
+            <Label alignment="CENTER" prefHeight="67.0" prefWidth="96.0" text="2" GridPane.rowIndex="2" />
+            <Label alignment="CENTER" text="11" GridPane.halignment="CENTER" GridPane.rowIndex="11" />
+            <Label alignment="CENTER" contentDisplay="CENTER" text="12" GridPane.halignment="CENTER" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
+            <Label text="13" GridPane.halignment="CENTER" GridPane.rowIndex="13" />
+            <Label text="14" GridPane.halignment="CENTER" GridPane.rowIndex="14" />
+            <Label text="15" GridPane.halignment="CENTER" GridPane.rowIndex="15" />
+            <Label text="16" GridPane.halignment="CENTER" GridPane.rowIndex="16" />
+            <Label text="17" GridPane.halignment="CENTER" GridPane.rowIndex="17" />
+            <Label text="18" GridPane.halignment="CENTER" GridPane.rowIndex="18" />
+            <Label text="19" GridPane.halignment="CENTER" GridPane.rowIndex="19" />
+            <Label text="20" GridPane.halignment="CENTER" GridPane.rowIndex="20" />
+            <Label text="21" GridPane.halignment="CENTER" GridPane.rowIndex="21" />
+            <Label text="22" GridPane.halignment="CENTER" GridPane.rowIndex="22" />
+            <Label text="23" GridPane.halignment="CENTER" GridPane.rowIndex="23" />
+            <Label text="24" GridPane.halignment="CENTER" GridPane.rowIndex="24" />
+            <Label text="25" GridPane.halignment="CENTER" GridPane.rowIndex="25" />
+            <Label text="26" GridPane.halignment="CENTER" GridPane.rowIndex="26" />
+            <Label text="27" GridPane.halignment="CENTER" GridPane.rowIndex="27" />
+            <Label text="28" GridPane.halignment="CENTER" GridPane.rowIndex="28" />
+            <Label text="29" GridPane.halignment="CENTER" GridPane.rowIndex="29" />
+            <Label text="30" GridPane.halignment="CENTER" GridPane.rowIndex="30" />
+          </GridPane>
+      </content>
+   </ScrollPane>
+    <Button fx:id="addClientButton" layoutX="356.0" layoutY="400.0" mnemonicParsing="false" onAction="#addNewClient" prefHeight="23.0" prefWidth="75.0" style="-fx-background-color: #00b894;" text="Додати" textFill="#fffafa">
+        <font>
+            <Font name="SansSerif Bold" size="12.0" />
+        </font>
+    </Button>
+    <Button fx:id="editButton" layoutX="440.0" layoutY="400.0" mnemonicParsing="false" onAction="#editingButton" prefHeight="23.0" prefWidth="105.0" style="-fx-background-color: #0984e3;" text="Редагувати" textFill="#fffafa">
+        <font>
+          <Font name="SansSerif Bold" size="12.0" />
+        </font>
+    </Button>
+    <TextField fx:id="searchTextField" disable="true" layoutX="126.0" layoutY="399.0" onKeyTyped="#searchTextFieldOnAction" prefHeight="26.0" prefWidth="190.0" />
+   <ComboBox fx:id="searchComboBox" layoutX="45.0" layoutY="399.0" onAction="#searchComboBoxOnAction" prefHeight="26.0" prefWidth="81.0" promptText="Пошук" />
+</AnchorPane>

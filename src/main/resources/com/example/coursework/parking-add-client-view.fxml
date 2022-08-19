@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #dfe6e9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.AddClientController">
+   <children>
+      <TextField fx:id="nameTextField" layoutX="74.0" layoutY="26.0" prefHeight="26.0" prefWidth="195.0" />
+      <TextField fx:id="carBrandTextField" layoutX="306.0" layoutY="26.0" prefHeight="26.0" prefWidth="115.0" />
+      <CheckBox fx:id="isRegularCostumer" layoutX="280.0" layoutY="29.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="14.0" />
+      <TextField fx:id="carNumberTextField" layoutX="432.0" layoutY="26.0" prefHeight="26.0" prefWidth="86.0" />
+      <CheckBox fx:id="isOnParking" layoutX="530.0" layoutY="30.0" mnemonicParsing="false" />
+      <CheckBox fx:id="isPayment" layoutX="558.0" layoutY="30.0" mnemonicParsing="false" />
+      <Button fx:id="addClientButton" layoutX="262.0" layoutY="68.0" mnemonicParsing="false" onAction="#addClientButtonOnAction" prefHeight="19.0" prefWidth="75.0" style="-fx-background-color: #00b894;" text="Додати" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="12.0" />
+         </font></Button>
+      <Separator layoutX="12.0" layoutY="58.0" prefHeight="5.0" prefWidth="578.0" />
+      <Label alignment="CENTER" layoutX="29.0" layoutY="6.0" prefHeight="18.0" prefWidth="35.0" text="№" />
+      <Label alignment="CENTER" layoutX="74.0" layoutY="6.0" prefHeight="18.0" prefWidth="195.0" text="Ім'я прізвище побатькові" />
+      <Label fx:id="RegularClient" alignment="CENTER" layoutX="270.0" layoutY="6.0" prefHeight="18.0" prefWidth="35.0" text="П/К" />
+      <Label alignment="CENTER" layoutX="306.0" layoutY="6.0" prefHeight="18.0" prefWidth="115.0" text="Марка авто" />
+      <Label alignment="CENTER" layoutX="432.0" layoutY="6.0" prefHeight="18.0" prefWidth="86.0" text="Номер авто" />
+      <Label fx:id="OnParking" layoutX="524.0" layoutY="6.0" prefHeight="18.0" prefWidth="28.0" text="На парковці" />
+      <Label fx:id="Payment" layoutX="552.0" layoutY="6.0" prefHeight="18.0" prefWidth="28.0" text="Оплачено" />
+      <ComboBox fx:id="numberComboBox" layoutX="15.0" layoutY="26.0" prefHeight="26.0" prefWidth="56.0" />
+   </children>
+</AnchorPane>
